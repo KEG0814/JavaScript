@@ -3,7 +3,7 @@
 
 ### Promise
 
-`기본 구문'
+`기본 구문`
 > resolve : 성공 , reject : 실패 시 실행되는 함수.
 > callback 함수 : 어떤 일이 완료되고 실행되는 함수.
 
@@ -21,7 +21,7 @@ const pt = new Promise((resolve,reject)=>{
     result : undefined
 }
 
->'resolve(value)' 가 호출되면 
+>`resolve(value)` 가 호출되면 
 {
     state : fulfilled(이행됨)
     result : value
@@ -35,7 +35,7 @@ const pr = new Promise((resolve,reject)=>{
 });
 ```
 
->'reject(error)' 가 호출되면 
+>`reject(error)` 가 호출되면 
 {
     state : rejected(거부됨)
     result : error
